@@ -22,7 +22,7 @@ app.post("/", (req, res) => {
 
 
     const query = req.body.cityName
-    const id = "021a9d2a44c3fbbb251af6e00a09ad64"
+    const id = ""
     const unit = "metric"
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${id}&units=${unit}`
